@@ -1,2 +1,3 @@
 *.old
 models/*.tar.gz
+test/*
