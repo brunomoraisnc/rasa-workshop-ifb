@@ -1,0 +1,1 @@
+# Aqui são armazenados os modelos treinados do Core e da NLU
