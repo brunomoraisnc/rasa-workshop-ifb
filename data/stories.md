@@ -1,31 +1,31 @@
 ## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+* cumprimenta
+  - utter_cumprimenta
+* bom_humor
+  - utter_feliz
 
 ## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+* cumprimenta
+  - utter_cumprimenta
+* mau_humor
+  - utter_anima
+  - utter_isso_te_ajudou_dvd
+* afirma
+  - utter_feliz
 
 ## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+* cumprimenta
+  - utter_cumprimenta
+* mau_humor
+  - utter_anima
+  - utter_isso_te_ajudou_dvd
+* nega
+  - utter_despede
 
 ## say goodbye
-* goodbye
-  - utter_goodbye
+* despede
+  - utter_despede
 
 ## bot challenge
 * bot_challenge
-  - utter_iamabot
+  - utter_sou_um_bot

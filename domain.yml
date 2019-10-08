@@ -1,36 +1,36 @@
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
+  - cumprimenta
+  - despede
+  - afirma
+  - nega
+  - bom_humor
+  - mau_humor
   - bot_challenge
 
 actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
+- utter_cumprimenta
+- utter_anima
+- utter_isso_te_ajudou_dvd
+- utter_feliz
+- utter_despede
+- utter_sou_um_bot
 
 templates:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_cumprimenta:
+  - text: "Olá! Como vai você?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  utter_anima:
+  - text: "Aqui está uma coisa que vai te animar:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_isso_te_ajudou_dvd:
+  - text: "Isso te ajudou?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_feliz:
+  - text: "Ótimo, continue assim!"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_despede:
+  - text: "Tchau! Até mais!"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_sou_um_bot:
+  - text: "Eu sou um bot feito com o framework Rasa para o IF Tech 2020."
